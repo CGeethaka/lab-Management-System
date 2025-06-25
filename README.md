@@ -29,3 +29,22 @@ The Lab Management System streamlines the administration of laboratory resources
 ```bash
 git clone https://github.com/CGeethaka/lab-Management-System.git
 cd lab-Management-System
+
+## Install dependencies for backend and frontend
+
+cd backend
+npm install
+
+cd ../frontend
+npm install
+
+## Configure environment variables
+
+Create .env files in both backend and frontend folders.
+Setup your API URLs, database credentials, and JWT secrets as required.
+
+## Running the Application
+
+Use the concurrently package to run backend and frontend together with one command from the root folder.
+
+npm start

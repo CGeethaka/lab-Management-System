@@ -30,6 +30,12 @@ The Lab Management System streamlines the administration of laboratory resources
 git clone https://github.com/CGeethaka/lab-Management-System.git
 cd lab-Management-System
 
+## Database
+
+The database schema is included in the `database/lab_management_schema.sql` file.  
+You can import this into your MySQL/MariaDB server to set up the required tables.
+
+
 ## Install dependencies for backend and frontend
 
 cd backend
@@ -48,3 +54,4 @@ Setup your API URLs, database credentials, and JWT secrets as required.
 Use the concurrently package to run backend and frontend together with one command from the root folder.
 
 npm start
+
